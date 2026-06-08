@@ -94,7 +94,7 @@ spec:
             tolerations:
                 - key: "app"
                   operator: "Equal"
-                  value: "kube2py"
+                  value: "todoapp"
                   effect: "NoSchedule"
             affinity:
                 podAntiAffinity:
